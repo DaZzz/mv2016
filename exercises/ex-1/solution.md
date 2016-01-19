@@ -64,8 +64,8 @@ and give a summary about topics (tracks, sessions, etc.).
 ```
 
 Machine Vision and Applications:
-- Image annotation via deep neural network.
-- Beyond thinking in common categories: Predicting obstacle vulnerability using large random codebooks.
-- Part-segmented features for articulated pose estimation.
-- An innovative of pyramid-based fusion for generating the HDR images in common display devices.
-- Computer vision-based approach for rite description in old societies. 3D scenes of sites.
+- Image annotation via __deep neural network__.
+- Beyond thinking in common categories: __Predicting obstacle vulnerability__ using large random codebooks.
+- Part-segmented features for articulated __pose estimation__.
+- An innovative of pyramid-based fusion for __generating the HDR images__ in common display devices.
+- Computer vision-based approach for rite description in old societies. __3D scenes of sites.__
