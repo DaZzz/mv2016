@@ -1,7 +1,9 @@
 ## Task 1
 
 ```
-Requirements for a successful machine vision application: explain important factors using two different points of view: product developer’s point of view and the end user’s point of view.
+Requirements for a successful machine vision application:
+explain important factors using two different points of view:
+product developer’s point of view and the end user’s point of view.
 ```
 
 ### Product developer
@@ -18,8 +20,12 @@ Requirements for a successful machine vision application: explain important fact
 ## Task 2
 
 ```
-Fundamental steps in a machine vision system: explain wh
--ich kind of vision (imaging, image processing and image analysis) would be important and necessary in the implementation of one specific machine vision application. As an application example you use any of the examples we have met in the lectures. You may select also other examples and consider the requirements for that.
+Fundamental steps in a machine vision system: explain which
+kind of vision (imaging, image processing and image analysis)
+would be important and necessary in the implementation of one specific
+machine vision application. As an application example you use any of
+the examples we have met in the lectures. You may select also other
+examples and consider the requirements for that.
 ```
 
 As an example let's consider empty bottle inspection, reusable glass containers.
@@ -34,7 +40,9 @@ on the bottle. We should use good sensor and proper light.
 ## Task 3
 
 ```
-Current research topics in the field: find a recent (this year) issue of a scientific journal in the field (e.g. Machine Vision and Applications), and give a summary about the topics in this one issue.
+Current research topics in the field: find a recent (this year) issue of a
+scientific journal in the field (e.g. Machine Vision and Applications),
+and give a summary about the topics in this one issue.
 ```
 
 Machine Vision and Applications:
@@ -50,7 +58,9 @@ Machine Vision and Applications:
 
 ## Task 4
 ```
-Current research topics in the field: find a recent (this year) conference in the field (e.g. Scandinavian Conference on Image Analysis (SCIA), ICPR, ICIP), and give a summary about topics (tracks, sessions, etc.).
+Current research topics in the field: find a recent (this year) conference
+in the field (e.g. Scandinavian Conference on Image Analysis (SCIA), ICPR, ICIP),
+and give a summary about topics (tracks, sessions, etc.).
 ```
 
 Machine Vision and Applications:
