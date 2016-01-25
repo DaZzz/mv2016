@@ -14,8 +14,8 @@ movingPoints = [101.6765,  66.8268; 598.5654,  127.5327; ...
                  83.6895, 579.4542; 591.8203,  653.6503];
 
 % Manual picking
-% [fixedPoints, movingPoints] = ...
-%     cpselect(I1,I2, 'Wait', true);
+[fixedPoints, movingPoints] = ...
+     cpselect(I1,I2, fixedPoints, movingPoints, 'Wait', true);
 
 trans = fitgeotrans(movingPoints, fixedPoints,'projective');
 Rortho = imref2d(size(I1));
