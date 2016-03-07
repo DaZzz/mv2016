@@ -10,6 +10,8 @@ s = [...
 
 for i=1:size(s,1)
     F = fft(repmat(s(i,:), [1, 40]));
+    x = sym('x');
+    a = real(F)*cos(x) + imag(F)*sin(x)
     subplot(2,4,i);
-    plot(repmat(s(i,:), [1, 5]));
+%     plot(repmat(s(i,:), [1, 5]));
 end
