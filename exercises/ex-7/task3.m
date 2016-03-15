@@ -66,8 +66,10 @@ title('Direction A');
 [GmagBr, GdirBr] = imgradient(double(Br));
 [GmagBg, GdirBg] = imgradient(double(Bg));
 [GmagBb, GdirBb] = imgradient(double(Bb));
-Bmag = cat(3, GmagBr, GmagBg, GmagBb);
-Bdir = cat(3, GdirBr, GdirBg, GdirBb);
+Bmag = GmagBr + GmagBg + GmagBb;
+Bdir = GdirBr + GdirBg + GdirBb;
+% Bmag = cat(3, GmagBr, GmagBg, GmagBb);
+% Bdir = cat(3, GdirBr, GdirBg, GdirBb);
 
 subplot(2,2,3);
 imshow(Bmag);
