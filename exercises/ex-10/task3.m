@@ -27,8 +27,8 @@ fprintf('Huffman subtractions compression ratio: %f\n', osz/csz);
 
 %% 
 R = I(:,:,1);
-[C, S] = wavedec2(R,8,'haar');
-pow = 2;
+[C, S] = wavedec2(R,3,'haar');
+pow = 4;
 
 % Huffman
 [counts, elems] = hist(double(int32(C(:))), unique(double(int32(C(:)))));
@@ -37,6 +37,9 @@ dict = huffmandict(elems, p);
 osz = size(C,1) * size(C,2) * 3 * 8;
 csz = sum(counts .* cellfun(@(x)length(x), dict(:,2))');
 fprintf('Huffman haar decomposition compression ratio: %f\n', osz/csz);
+R0 = waverec2(C,S,'haar')/255;
+MSE = sqrt(mean((double(R(:)) - R0(:)*255).^2));
+fprintf('MSE = %f\n', MSE);
 
 % Quantization
 sft = 1;
