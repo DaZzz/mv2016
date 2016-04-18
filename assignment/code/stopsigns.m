@@ -20,7 +20,7 @@ addpath(imDir);
 negativeFolder = fullfile(matlabroot,'toolbox','vision','visiondata','nonStopSigns');
 
 % Train detector.
-trainCascadeObjectDetector('stopSignDetector.xml',data,negativeFolder,'FalseAlarmRate',0.1,'NumCascadeStages',5);
+trainCascadeObjectDetector('stopSignDetector.xml',data,negativeFolder,'FalseAlarmRate',0.2,'NumCascadeStages',5);
 
 % Create detector.
 stopSignDetector = vision.CascadeObjectDetector('stopSignDetector.xml');
